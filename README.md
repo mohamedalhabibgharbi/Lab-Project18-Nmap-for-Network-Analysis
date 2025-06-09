@@ -115,5 +115,7 @@ This allowed me to keep a **record of my scans** for later reference and analysi
 This lab gave me hands-on experience with both the foundational and advanced capabilities of Nmap. I now feel confident using it for real-world tasks like host discovery, port scanning, service identification, and OS detection. It also taught me how to optimize scans for performance and stealth, making it a powerful tool in my cybersecurity skillset.
 
 ---
+## ⚠️ Disclaimer
+This is a hands-on lab from Tryhackme website. It is created for training purposes only.
 
 *📁 [Back to Portfolio](https://github.com/mohamedalhabibgharbi)*  
