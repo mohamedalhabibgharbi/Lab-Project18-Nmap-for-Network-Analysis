@@ -16,10 +16,11 @@ In this lab, I learned how to use **Nmap** to:
 
 To find out which devices were online, I used:
 
-- `nmap -sn 10.10.52.0/24`: This scanned my local network  
+- `nmap -sn 10.10.52.0/24`: This scanned my local network <br><br> 
   ![Screenshot1](https://i.imgur.com/uyAnKtf.png)
+  <br><br><br>
 
-- `nmap -sn 10.10.53.0/24`: This scanned a remote network  
+- `nmap -sn 10.10.53.0/24`: This scanned a remote network  <br><br>
   ![Screenshot2](https://i.imgur.com/25GwL4Q.png)
 
 From these scans, I was able to identify which hosts were active and even view their **MAC addresses** and **vendors** when scanning locally.
@@ -30,14 +31,17 @@ From these scans, I was able to identify which hosts were active and even view t
 
 To find open services, I used several scan types:
 
-- `nmap -sT`: A TCP connect scan, which completes the three-way handshake  
+- `nmap -sT`: A TCP connect scan, which completes the three-way handshake  <br><br>
   ![Screenshot3](https://i.imgur.com/IC3ZTZm.png)
+  <br><br><br>
 
-- `nmap -sS`: A SYN scan, which sends SYN packets but does not complete the handshake (stealthier)  
+- `nmap -sS`: A SYN scan, which sends SYN packets but does not complete the handshake (stealthier) <br><br> 
   ![Screenshot4](https://i.imgur.com/9WVh0CO.png)
+  <br><br><br>
 
-- `nmap -sU`: A UDP scan, to detect services like DNS or SNMP  
+- `nmap -sU`: A UDP scan, to detect services like DNS or SNMP  <br><br>
   ![Screenshot5](https://i.imgur.com/FegJiof.png)
+  <br><br><br>
 
 I also learned how to limit the scan to specific ports using:
 
