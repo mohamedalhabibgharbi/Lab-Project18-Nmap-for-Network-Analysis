@@ -74,7 +74,7 @@ I tested different scan speeds using:
 
 - `--min-parallelism`, `--max-parallelism`: Controlled how many probes ran at once  
 - `--min-rate`, `--max-rate`: Adjusted scan speed in packets per second  
-- `--host-timeout`: Limited how long to spend scanning a single host <br><br>  
+- `--host-timeout`: Limited how long to spend scanning a single host <br> 
   ![Screenshot10](https://i.imgur.com/6d3ZPQa.png)
 
 This helped me balance **stealth**, **speed**, and **thoroughness**.
