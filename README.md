@@ -59,7 +59,7 @@ To gather more detailed info, I used:
 - `nmap -O`: Tried to guess the target operating system  
 - `nmap -A`: Combined both OS and service detection, along with traceroute  
 
-These options helped me identify, for example, that the target web server was running **lighttpd 1.4.74** on **Ubuntu Linux**. <br> 
+These options helped me identify, for example, that the target web server was running **lighttpd 1.4.74** on **Ubuntu Linux**. <br><br>
 ![Screenshot7](https://i.imgur.com/iufzllU.png)
 
 ---
