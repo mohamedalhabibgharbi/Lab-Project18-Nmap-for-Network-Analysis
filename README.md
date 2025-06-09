@@ -43,10 +43,10 @@ To find open services, I used several scan types:
   ![Screenshot5](https://i.imgur.com/FegJiof.png)
   <br><br><br>
 
-I also learned how to limit the scan to specific ports using:
+I also learned also how to limit the scan to specific ports using:
 
 - `-F`: Fast scans (100 most common ports)  
-- `-p`: Define custom port ranges  
+- `-p`: Define custom port ranges <br><br>  
   ![Screenshot6](https://i.imgur.com/88SSZMf.png)
 
 ---
