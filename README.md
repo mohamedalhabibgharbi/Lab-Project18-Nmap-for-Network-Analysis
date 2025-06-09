@@ -68,13 +68,13 @@ These options helped me identify, for example, that the target web server was ru
 
 I tested different scan speeds using:
 
-- `-T0` to `-T5`: Ranging from paranoid (slowest) to insane (fastest)  
-  ![Screenshot8](https://i.imgur.com/ZEqjA6P.png)  
+- `-T0` to `-T5`: Ranging from paranoid (slowest) to insane (fastest)  <br><br>
+  ![Screenshot8](https://i.imgur.com/ZEqjA6P.png) <br><br> 
   ![Screenshot9](https://i.imgur.com/dh1fwpG.png)
 
 - `--min-parallelism`, `--max-parallelism`: Controlled how many probes ran at once  
 - `--min-rate`, `--max-rate`: Adjusted scan speed in packets per second  
-- `--host-timeout`: Limited how long to spend scanning a single host  
+- `--host-timeout`: Limited how long to spend scanning a single host <br><br>  
   ![Screenshot10](https://i.imgur.com/6d3ZPQa.png)
 
 This helped me balance **stealth**, **speed**, and **thoroughness**.
@@ -85,7 +85,7 @@ This helped me balance **stealth**, **speed**, and **thoroughness**.
 
 To get more insights while scanning:
 
-- `-v`, `-vv`: Verbose output  
+- `-v`, `-vv`: Verbose output  <br><br>
   ![Screenshot11](https://i.imgur.com/5ekJiuq.png)
 
 - `-d`, `-d9`: Debugging output with more technical detail  
@@ -101,9 +101,9 @@ To save my results, I used:
 - `-oN`: Saved normal (human-readable) output  
 - `-oG`: Grep-friendly format  
 - `-oX`: XML format  
-- `-oA`: Saved all three formats with the same basename  
+- `-oA`: Saved all three formats with the same basename  <br><br>
 
-![Screenshot12](https://i.imgur.com/Wwvb6oJ.png)  
+![Screenshot12](https://i.imgur.com/Wwvb6oJ.png)  <br><br>
 ![Screenshot13](https://i.imgur.com/PcCYBsz.png)
 
 This allowed me to keep a **record of my scans** for later reference and analysis.
